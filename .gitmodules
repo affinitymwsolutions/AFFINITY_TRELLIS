@@ -1,0 +1,3 @@
+[submodule "trellis"]
+      path = TRELLIS
+      url = https://github.com/andrewexton373/trellis.git
