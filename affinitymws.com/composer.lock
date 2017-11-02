@@ -4,46 +4,71 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c07a46fadba1954282e634eaeffe42f3",
+    "content-hash": "23d0779d2745ea825391ef8de49d5cd4",
     "packages": [
         {
-            "name": "afragen/github-updater",
-            "version": "7.4.2",
+            "name": "andrewexton373/wp-sync-db",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afragen/github-updater.git",
-                "reference": "33e78d72f77cb0abf572cde844360531c1387481"
+                "url": "https://github.com/andrewexton373/wp-sync-db.git",
+                "reference": "5991d387ef7927f2328f28b5eaf9df1502ba4068"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afragen/github-updater/zipball/33e78d72f77cb0abf572cde844360531c1387481",
-                "reference": "33e78d72f77cb0abf572cde844360531c1387481",
+                "url": "https://api.github.com/repos/andrewexton373/wp-sync-db/zipball/5991d387ef7927f2328f28b5eaf9df1502ba4068",
+                "reference": "5991d387ef7927f2328f28b5eaf9df1502ba4068",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3"
+                "composer/installers": "^1.4"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPLv2"
+                "GPL-2.0"
             ],
-            "authors": [
-                {
-                    "name": "Andy Fragen",
-                    "email": "andy@thefragens.com",
-                    "homepage": "https://thefragens.com",
-                    "role": "Developer"
-                }
-            ],
+            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db",
             "keywords": [
-                "install",
+                "db",
                 "plugin",
-                "theme",
-                "updater",
-                "wordpress"
+                "wordpress",
+                "wp-sync-db"
             ],
-            "time": "2017-10-25T21:59:22+00:00"
+            "time": "2017-11-02T20:28:20+00:00"
+        },
+        {
+            "name": "andrewexton373/wp-sync-db-media-files",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andrewexton373/wp-sync-db-media-files.git",
+                "reference": "7906e4ab110a5201103a9792b5b8d0db1feabd04"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andrewexton373/wp-sync-db-media-files/zipball/7906e4ab110a5201103a9792b5b8d0db1feabd04",
+                "reference": "7906e4ab110a5201103a9792b5b8d0db1feabd04",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB Media File Addon for WP Sync DB",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db-media-files",
+            "keywords": [
+                "media",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2017-11-02T20:33:33+00:00"
         },
         {
             "name": "composer/installers",
@@ -595,7 +620,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "andrewexton373/wp-sync-db": 20,
+        "andrewexton373/wp-sync-db-media-files": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
