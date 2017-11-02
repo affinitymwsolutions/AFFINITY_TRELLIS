@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/andrewexton373/wp-sync-db.git",
-                "reference": "5991d387ef7927f2328f28b5eaf9df1502ba4068"
+                "reference": "fb66e46b716ef47148527e28a877cb559a1fc8cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andrewexton373/wp-sync-db/zipball/5991d387ef7927f2328f28b5eaf9df1502ba4068",
-                "reference": "5991d387ef7927f2328f28b5eaf9df1502ba4068",
+                "url": "https://api.github.com/repos/andrewexton373/wp-sync-db/zipball/fb66e46b716ef47148527e28a877cb559a1fc8cf",
+                "reference": "fb66e46b716ef47148527e28a877cb559a1fc8cf",
                 "shasum": ""
             },
             "require": {
@@ -36,7 +36,7 @@
                 "wordpress",
                 "wp-sync-db"
             ],
-            "time": "2017-11-02T20:28:20+00:00"
+            "time": "2017-11-02T22:38:06+00:00"
         },
         {
             "name": "andrewexton373/wp-sync-db-media-files",
