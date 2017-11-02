@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "23d0779d2745ea825391ef8de49d5cd4",
+    "content-hash": "ebd077e1e04d78cd39ade62077519534",
     "packages": [
         {
             "name": "andrewexton373/wp-sync-db",
@@ -486,16 +486,16 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/4.0.0"
+                "reference": "tags/4.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.0.0.zip",
-                "reference": "tags/4.0.0",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.0.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
