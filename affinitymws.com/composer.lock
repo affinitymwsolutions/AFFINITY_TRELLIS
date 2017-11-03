@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ebd077e1e04d78cd39ade62077519534",
+    "content-hash": "b521cb290f1c548d78c28339d2ee131f",
     "packages": [
         {
             "name": "andrewexton373/wp-sync-db",
@@ -563,6 +563,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/astrid/"
+        },
+        {
+            "name": "wpackagist-theme/sydney",
+            "version": "1.41",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/sydney/",
+                "reference": "1.41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/sydney.1.41.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/sydney/"
         }
     ],
     "packages-dev": [
