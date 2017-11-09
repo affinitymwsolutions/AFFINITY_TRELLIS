@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a0632883a74a2c02d60a3030b6fd4e3",
+    "content-hash": "778df042673ecbb628065370656841de",
     "packages": [
         {
             "name": "andrewexton373/wp-sync-db",
@@ -525,6 +525,46 @@
             "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
         },
         {
+            "name": "wpackagist-plugin/siteorigin-panels",
+            "version": "2.5.14",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
+                "reference": "tags/2.5.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.5.14.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/siteorigin-panels/"
+        },
+        {
+            "name": "wpackagist-plugin/sydney-toolbox",
+            "version": "1.01",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sydney-toolbox/",
+                "reference": "tags/1.01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sydney-toolbox.1.01.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sydney-toolbox/"
+        },
+        {
             "name": "wpackagist-plugin/wordfence",
             "version": "6.3.21",
             "source": {
@@ -586,15 +626,15 @@
         },
         {
             "name": "wpackagist-theme/sydney",
-            "version": "1.41",
+            "version": "1.42",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/sydney/",
-                "reference": "1.41"
+                "reference": "1.42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/sydney.1.41.zip",
+                "url": "https://downloads.wordpress.org/theme/sydney.1.42.zip",
                 "reference": null,
                 "shasum": null
             },
