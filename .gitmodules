@@ -1,3 +1,11 @@
 [submodule "trellis"]
       path = TRELLIS
       url = https://github.com/andrewexton373/trellis.git
+
+[submodule "affinitymws.com"]
+      path = affinitymws.com
+      url = https://github.com/andrewexton373/affinitymws.git
+
+[submodule "tammychau.com"]
+      path = tammychau.com
+      url = https://github.com/affinitymwsolutions/tammychau.git
