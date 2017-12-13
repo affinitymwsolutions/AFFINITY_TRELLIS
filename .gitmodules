@@ -3,8 +3,8 @@
       url = https://github.com/affinitymws/TRELLIS.git
 
 [submodule "affinitymws.com"]
-      path = affinitymws.com
-      url = https://github.com/affinitymwsolutions/affinitymws.com.git
+	path = affinitymws.com
+	url = https://github.com/affinitymwsolutions/affinitymws.com
 
 [submodule "tammychau.com"]
       path = tammychau.com
