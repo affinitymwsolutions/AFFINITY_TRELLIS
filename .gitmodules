@@ -13,3 +13,7 @@
 [submodule "cannbisriskconsulting.com"]
       path = cannbisriskconsulting.com
       url = https://github.com/affinitymwsolutions/cannabisriskconsulting.com.git
+
+[submodule "ex10n.com"]
+	path = ex10n.com
+	url = https://git.affinitymws.com/andrewexton/ex10n.com.git
