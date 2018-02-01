@@ -10,3 +10,6 @@
       path = tammychau.com
       url = https://github.com/affinitymwsolutions/tammychau.com.git
       
+[submodule "cannbisriskconsulting.com"]
+      path = cannbisriskconsulting.com
+      url = https://github.com/affinitymwsolutions/cannabisriskconsulting.com.git
